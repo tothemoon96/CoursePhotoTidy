@@ -9,6 +9,7 @@ public class BitmapUtilities {
 	public BitmapUtilities() {
 		// TODO Auto-generated constructor stub
 	}
+	//test push
 	
 	public static Bitmap getBitmapThumbnail(String path,int width,int height){
 		Bitmap bitmap = null;
