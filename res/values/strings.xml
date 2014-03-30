@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">登录系统</string>
+    <string name="app_name">课程照片整理</string>
+    <string name="name">用户名</string>
+    <string name="pass">密 码</string>
+    <string name="auth">验证码</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="get_auth_code">获取验证码</string>
+    <string name="course_selected">你选择的课程是：</string>
+
+</resources>
