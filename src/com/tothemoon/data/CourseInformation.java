@@ -70,6 +70,7 @@ endTime,String course,String teacher,String detail){
 		this.endTime=endTime;
 	}
 	
+	@Override
 	public int describeContents() {
 		return 0;
 	}
@@ -83,10 +84,8 @@ endTime,String course,String teacher,String detail){
 		dest.writeString(beginTime);
 		dest.writeString(endTime);
 	}
-
-	public static final Parcelable.Creator<CourseInformation> CREATOR = new 
-
-Parcelable.Creator<CourseInformation>() {
+	
+	public static final Parcelable.Creator<CourseInformation> CREATOR = new Parcelable.Creator<CourseInformation>() {
 
 		@Override
 		public CourseInformation createFromParcel(Parcel source) {
